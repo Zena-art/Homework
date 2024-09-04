@@ -1,0 +1,26 @@
+#name {
+  display: flex;
+  border: solid black;
+  background-color: #043280;
+  color: #ffffff;
+  margin-top: 30px;
+  height: 100px;
+}
+
+#about_me{
+  display: flex;
+  border: solid black;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 250px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+#experience {
+  border: solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  order: 6;
+}
