@@ -1,26 +1,47 @@
-#name {
-  display: flex;
-  border: solid black;
-  background-color: #043280;
-  color: #ffffff;
-  margin-top: 30px;
-  height: 100px;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body 
+{
+ background: lightblue; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba (0, 0, 0, 0.1);
+}
+.container .left_Side
+{
+  position: relative;
+  background: #003147;
+  padding: 40px;
 }
 
-#about_me{
+.profileText
+{
+  position:relative;
   display: flex;
-  border: solid black;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 250px;
-  justify-content: space-between;
-  margin-left: 20px;
 }
-#experience {
-  border: solid black;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  order: 6;
+.container .right_Side
+{
+  position: relative;
+  background: #fff;
+  padding: 40px;
 }
